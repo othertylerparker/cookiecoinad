@@ -1,0 +1,9 @@
+Building Cookiecoin
+
+See doc/readme-qt.rst for instructions on building Cookiecoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Cookiecoin.
+
+See doc/build-*.txt for instructions on building cookiecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Cookiecoin.
