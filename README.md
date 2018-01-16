@@ -8,11 +8,9 @@ What is Cookiecoin?
 ----------------
 
 Cookiecoin is a version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
+ - 30 second block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~300,000 total coins
-
-The rest is the same as Bitcoin.
  - 20 coins per block
  - 2016 blocks to retarget difficulty
 
@@ -62,4 +60,3 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
     ./cookiecoin-qt_test
-
